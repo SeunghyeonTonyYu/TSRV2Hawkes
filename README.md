@@ -11,6 +11,13 @@ Source code for [A tale of two time scales: Application in Nonparametric Hawkes 
 
 ## Quick Usage
 Download the Github repository and execute the following codes at the root directory:
+
+To compile cython file, run following shell command:
+```bash
+bash run.sh
+```
+
+Then under python environment, run the followings:
 ```python
 import numpy as np
 from main import TSRV2Hawkes
