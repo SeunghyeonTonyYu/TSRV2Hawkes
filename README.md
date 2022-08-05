@@ -1,6 +1,6 @@
 # TSRV2Hawkes
 
-Source code for [A tale of two time scales: Application in Nonparametric Hawkes processes with Ito semimiartingale Baseline](https://arxiv.org/abs/2102.12783).
+Source code for [A tale of two time scales: Application in Nonparametric Hawkes processes with Ito semimiartingale Baseline](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4174251).
 
 
 ## Dependencies
