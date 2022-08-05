@@ -10,7 +10,7 @@ Source code for [A tale of two time scales: Application in Nonparametric Hawkes 
 
 
 ## Quick Usage
-Download the Github repository and execute the following codes at the root directory:
+Download the Github repository (or copy only the file `main.py`) and execute the following codes at the root directory:
 ```python
 import numpy as np
 from main import TSRV2Hawkes
