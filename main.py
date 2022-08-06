@@ -34,7 +34,9 @@ def get_trunc(hat_lamb, Delta_n,
     return np.logical_and(mask2, mask3)
 
 
-def TSRV2Hawkes(*args, **kwargs):
+def TSRV2Hawkes(points, 
+                Delta_n=None, T=1, c=.5,
+                truncation=True, recursion=True, debug=False):
     """Nonparametric Hawkes estimation using TSRV method
     
     This implementation is the nonparametric estimator under the time-varying
@@ -64,7 +66,10 @@ def TSRV2Hawkes(*args, **kwargs):
         (This is due to the high BR case requires longer Delta_n).
         When estimated branching ratio is closed to zero, use `c=2`.
     """
-    return BR_estimation(*args, **kwargs)
+    return BR_estimation(points=points,
+                         Delta_n=Delta_n, T=T, c=c,
+                         truncation=truncation, recursion=recursion, 
+                         debug=debug)
 
 
 def BR_estimation(points, 
