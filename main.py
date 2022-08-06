@@ -40,9 +40,9 @@ def TSRV2Hawkes(points,
     """Nonparametric Hawkes estimation using TSRV method
     
     This implementation is the nonparametric estimator under the time-varying
-    baseline described in the paper `Nonparametric Estimation of Hawkes 
-    Branching Ratio under Time-arying Baseline Intensity` by Yu and Potiron 
-    (2022, Preprint).
+    baseline described in the paper `A Tale of Two Time Scales: Applications in
+    Nonparametric Hawkes Processes with Ito Semimartingale Baseline` by Yu and 
+    Potiron (2022, Available at SSRN: https://ssrn.com/abstract=4174251).
 
     Parameters
     ----------

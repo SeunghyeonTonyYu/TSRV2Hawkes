@@ -124,7 +124,7 @@ Please cite the following paper if you use this code.
 @article{yupotiron2022TSRV2Hawkes,
   title={A tale of two time scales: Applications in Nonparametric Hawkes processes with Ito semimartingale Baseline},
   author={Yu, Seunghyeon and Potiron, Yoann},
-  journal={Available at SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4174251},
+  journal={Available at SSRN: https://ssrn.com/abstract=4174251},
   year={2020}
 }
 ```
