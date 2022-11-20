@@ -56,6 +56,7 @@ res['BR'] / res['SD(BR)']
 
 For the Hawkes process, we can use a package `tick` as follows:
 ```python
+from main import TSRV2Hawkes
 from tick.base import TimeFunction
 from tick.hawkes import SimuHawkesExpKernels
 
