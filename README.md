@@ -3,10 +3,11 @@
 Source code for [A tale of two time scales: Application in Nonparametric Hawkes processes with Ito semimiartingale Baseline](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4174251).
 
 
-## Dependencies
-* Python 3.7.
+## Requirements
+* Python 3.7 or later.
 * [Anaconda](https://www.anaconda.com/) contains all the required packages.
 * [tick](https://x-datainitiative.github.io/tick/) for Simulation.
+* (Recommend) [VS code](https://code.visualstudio.com/download) with [Copilot](https://code.visualstudio.com/docs/copilot/overview).
 
 
 ## Quick Usage
@@ -96,8 +97,8 @@ dtype: float64
 
 
 ## Full Instructions
-1. Download the datasets [here](https://drive.google.com/file/d/1AnSaaUtj4C7ZSzt3EvLBTr67_7xq1P9E/view?usp=sharing), and unzip at the **data** folder (so at the root directory, you should possible to access `data/equity/` or `data/E-mini_sample`).
-1. run `bash run.sh` to compile the Cython files for the simulation.
+1. Download the datasets [here](https://drive.google.com/file/d/1SIpA0pJSoLFKLXWP0yIUv74XLw9uUG2i/view?usp=sharing), and unzip at the **data** folder (so at the root directory, you should possible to access `data/equity/` or `data/E-mini_sample`).
+1. run `bash run.sh` (linux) or `python setup.py build_ext --inplace` (for any OS) to compile the Cython files for the simulation.
 
 
 > **Note**
